@@ -1,16 +1,22 @@
-## Hi there 👋
+# Hi, I’m İpek 👋
 
-<!--
-**ipekdolu/ipekdolu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I’m an MSc student in **Natural Language Processing** in Germany, with a strong background in **Computer Science and Machine Learning**.
 
-Here are some ideas to get you started:
+I enjoy building **end-to-end NLP projects**, from data preprocessing to model training and evaluation—especially around **text understanding, sentiment analysis, and representation learning**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔭 Current focus
+- Transformer-based NLP (classification, extraction, generation)
+- Practical ML systems for real-world text data
+- Research-driven experimentation and evaluation
+
+## 🧠 Background
+- MSc in Natural Language Processing (Trier University)
+- BSc in Computer Science & Engineering (Sabancı University)
+- Experience with research-oriented and applied ML projects
+
+## 🛠️ Tech stack
+**Python**, PyTorch, Hugging Face, scikit-learn, pandas, NumPy, SQL, Git, Linux
+
+## 📌 Projects
+> I’m currently organizing and documenting my projects.  
+> Featured NLP and ML repositories will be added here soon.
