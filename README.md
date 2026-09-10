@@ -1,42 +1,66 @@
 # Hi, I'm İpek 👋
- 
-I'm an MSc student in **Natural Language Processing** at Trier University, Germany, with a background in Computer Science from Sabancı University. I like building things that actually work — end-to-end NLP systems, applied ML pipelines, and AI-powered tools that go from idea to deployment.
- 
-My work lives at the intersection of language, learning, and real-world use: understanding what text means, representing it well, and building systems that act on it.
- 
+
+I'm an applied AI engineer with an M.Sc. background in **Natural Language Processing** (University of Trier) and a B.Sc. in Computer Science & Engineering (Sabancı University). I build AI-powered products end-to-end — from LLM systems and retrieval pipelines to the product decisions that shape how they actually solve a problem for the people using them.
+
+
 ---
- 
+
 ## What I'm working on
- 
-- Transformer-based models for classification, extraction, and generation
-- Practical ML systems on messy, real-world text data
-- Research-driven experimentation with rigorous evaluation
+
+- **LLM-powered applications** — building with the Claude API: structured outputs, function calling, and prompt engineering for production use cases
+- **RAG systems** — retrieval pipelines, vector databases, embedding models, and multilingual retrieval
+- **Agentic AI** — expanding into agent orchestration and tool-use pipelines (LangGraph)
+- **Full-stack AI products** — designing and shipping complete user-facing applications, not just backend pipelines
+- **Applied NLP** — transformer-based models for classification, extraction, and generation, grounded in research-level evaluation practices
+
 ---
- 
+
 ## Background
- 
-- 🎓 MSc in Natural Language Processing — Trier University, Germany
-- 🎓 BSc in Computer Science & Engineering — Sabancı University
-- Research and applied ML experience across academic and project settings
+
+- 🎓 M.Sc. Natural Language Processing — University of Trier, Germany
+- 🎓 B.Sc. Computer Science & Engineering — Sabancı University
+- Portfolio of deployed AI products spanning LLM applications, RAG systems, and full-stack development
+
 ---
- 
+
 ## Tech stack
- 
-**Python** · PyTorch · Hugging Face Transformers · scikit-learn · FastAPI · React · pandas · NumPy · SQL · Git · Linux
- 
+
+**Languages:** Python · TypeScript · JavaScript · SQL
+
+**LLM & Agentic AI:** Claude API · Prompt engineering · Structured outputs · RAG · LangGraph · ChromaDB · sentence-transformers
+
+**ML / NLP:** PyTorch · Hugging Face Transformers · scikit-learn · spaCy · NLTK · pandas
+
+**Frontend:** React · Next.js · Tailwind CSS · Vite
+
+**Backend & Data:** FastAPI · Supabase (PostgreSQL) · Drizzle ORM · REST APIs · Power BI
+
+**Testing & Analysis:** Vitest · Excel
+
+**DevOps & Deployment:** Vercel · Render · Git/GitHub
+
 ---
- 
+
 ## 📌 Projects
- 
+
 ### [CareerAI](https://careerai-delta.vercel.app) &nbsp;·&nbsp; [Repo](https://github.com/ipekdolu/careerai)
-> An AI-powered job application assistant built with the Claude API and deployed full-stack.
- 
-- **Resume Analyzer** — fit scoring, keyword matching, gap analysis, and tailored bullet suggestions against a job description
-- **Resume Rewriter** — full Claude-powered rewrite with diff review and PDF export
-- **Interview Prep** — structured preparation guide generated from your resume and target role
-- **Mock Interview** — adaptive AI interviewer with multi-turn conversation and scored feedback
-Built with **FastAPI** (backend) · **React + Vite** (frontend) · **Claude API** · deployed on **Render + Vercel**
- 
+- FastAPI backend on the Anthropic Claude SDK with task-specific tool lists
+- Claude-generated diff-based rewriting with PDF export via ReportLab
+- React + Vite frontend with Supabase Google OAuth and a session-based data model
+- Deployed full-stack — Vercel (frontend), Render (backend)
+
+### [RightsDE](#) &nbsp;·&nbsp; [Repo](#)
+- Retrieval pipeline built with ChromaDB and a multilingual sentence-transformer embedding model
+- FastAPI backend with a custom chunking and ingestion pipeline
+- Query translation layer for cross-language retrieval accuracy
+- Claude-powered dynamic document generation
+
+### [Knack](https://knackde-azure.vercel.app) &nbsp;·&nbsp; [Repo](#)
+- Next.js, TypeScript, and React frontend with Supabase and Drizzle ORM
+- LLM-based grading pipeline via the Anthropic API, with complexity-based model routing
+- Web Speech API integration for spoken exercises
+- Spaced repetition system with mastery-state logic
+
 ---
- 
-> More NLP and ML projects coming soon.
+
+> More projects coming soon.
