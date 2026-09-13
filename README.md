@@ -1,7 +1,8 @@
-# Hi, I'm İpek 👋
+# Hi, I'm Ipek 👋
 
 I'm an applied AI engineer with an M.Sc. background in **Natural Language Processing** (University of Trier) and a B.Sc. in Computer Science & Engineering (Sabancı University). I build AI-powered products end-to-end — from LLM systems and retrieval pipelines to the product decisions that shape how they actually solve a problem for the people using them.
 
+I like sitting at the intersection of engineering and product: understanding what a system needs to do, why, and for whom — then building it well.
 
 ---
 
@@ -27,7 +28,7 @@ I'm an applied AI engineer with an M.Sc. background in **Natural Language Proces
 
 **Languages:** Python · TypeScript · JavaScript · SQL
 
-**LLM & Agentic AI:** Claude API · Prompt engineering · Structured outputs · RAG · LangGraph · ChromaDB · sentence-transformers
+**LLM & Agentic AI:** Claude API · Prompt engineering · Structured outputs · RAG · LangGraph · ChromaDB · Neo4j · sentence-transformers
 
 **ML / NLP:** PyTorch · Hugging Face Transformers · scikit-learn · spaCy · NLTK · pandas
 
@@ -37,7 +38,7 @@ I'm an applied AI engineer with an M.Sc. background in **Natural Language Proces
 
 **Testing & Analysis:** Vitest · Excel
 
-**DevOps & Deployment:** Vercel · Render · Git/GitHub
+**DevOps & Deployment:** Vercel · Render · Git/GitHub · Langfuse
 
 ---
 
@@ -49,11 +50,12 @@ I'm an applied AI engineer with an M.Sc. background in **Natural Language Proces
 - React + Vite frontend with Supabase Google OAuth and a session-based data model
 - Deployed full-stack — Vercel (frontend), Render (backend)
 
-### [RightsDE](#) &nbsp;·&nbsp; [Repo](#)
-- Retrieval pipeline built with ChromaDB and a multilingual sentence-transformer embedding model
-- FastAPI backend with a custom chunking and ingestion pipeline
-- Query translation layer for cross-language retrieval accuracy
-- Claude-powered dynamic document generation
+### MythCheck &nbsp;·&nbsp; [Repo](https://github.com/ipekdolu/mythcheck)
+- Neo4j AuraDB knowledge graph + ChromaDB vector store, built from Wikipedia mythology sources (Greek, Norse, Egyptian)
+- Claude API structured extraction (strict tool schema), with entity resolution via alias merging and cross-tradition equivalence detection using embedding similarity
+- Claim-routing pipeline — graph traversal for relational claims, vector search + LLM-as-judge for descriptive claims, every verdict citing an actually-retrieved chunk
+- Evaluation harness using synthetic claim corruption for gold-label generation — 1.00 precision across all categories (n=50 synthetic, n=15 real hallucinations)
+- Langfuse observability end-to-end, FastAPI `/verify` endpoint, Streamlit UI
 
 ### [Knack](https://knackde-azure.vercel.app) &nbsp;·&nbsp; [Repo](#)
 - Next.js, TypeScript, and React frontend with Supabase and Drizzle ORM
