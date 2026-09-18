@@ -1,4 +1,4 @@
-# Hi, I'm Ipek 👋
+# Hi, I'm İpek 👋
 
 I'm an applied AI engineer with an M.Sc. background in **Natural Language Processing** (University of Trier) and a B.Sc. in Computer Science & Engineering (Sabancı University). I build AI-powered products end-to-end — from LLM systems and retrieval pipelines to the product decisions that shape how they actually solve a problem for the people using them.
 
@@ -28,7 +28,7 @@ I like sitting at the intersection of engineering and product: understanding wha
 
 **Languages:** Python · TypeScript · JavaScript · SQL
 
-**LLM & Agentic AI:** Claude API · Prompt engineering · Structured outputs · RAG · LangGraph · ChromaDB · Neo4j · sentence-transformers
+**LLM & Agentic AI:** Claude API · Prompt engineering · Structured outputs · RAG · LangGraph · MCP · ChromaDB · Neo4j · sentence-transformers
 
 **ML / NLP:** PyTorch · Hugging Face Transformers · scikit-learn · spaCy · NLTK · pandas
 
@@ -44,11 +44,11 @@ I like sitting at the intersection of engineering and product: understanding wha
 
 ## 📌 Projects
 
-### [CareerAI](https://careerai-delta.vercel.app) &nbsp;·&nbsp; [Repo](https://github.com/ipekdolu/careerai)
-- FastAPI backend on the Anthropic Claude SDK with task-specific tool lists
-- Claude-generated diff-based rewriting with PDF export via ReportLab
-- React + Vite frontend with Supabase Google OAuth and a session-based data model
-- Deployed full-stack — Vercel (frontend), Render (backend)
+### [Multi-Perspective Pitch Tester](https://multi-perspective-pitch-tester.vercel.app) &nbsp;·&nbsp; [Repo](https://github.com/ipekdolu/multi-perspective-pitch-tester)
+- Multi-agent LangGraph state machine: parallel persona fan-out, a real challenge/rebuttal loop, and two human-in-the-loop approval gates with checkpointed interrupt/resume
+- Custom-built MCP server exposing persona incentive data as a resource and live market grounding as a tool — and itself a client to a public MCP search server, showing both sides of the protocol
+- Trajectory-level eval suite: an 8-case hand-built golden dataset scored by two LLM-as-judge criteria (persona consistency, synthesis quality), wired to Langfuse for offline and sampled online scoring
+- FastAPI backend, React/TypeScript frontend, Claude API
 
 ### MythCheck &nbsp;·&nbsp; [Repo](https://github.com/ipekdolu/mythcheck)
 - Neo4j AuraDB knowledge graph + ChromaDB vector store, built from Wikipedia mythology sources (Greek, Norse, Egyptian)
